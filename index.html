@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+    <title>Level 3</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <svg class="header__logo logo">
+        <use href="assets/icons/sprites.svg#logo"></use>
+      </svg>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/" class="header__nav-link">features</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/" class="header__nav-link">works</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/" class="header__nav-link">our team</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/" class="header__nav-link">testimonials</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/" class="header__nav-link">download</a>
+          </li>
+        </ul>
+      </nav>
+
+      <input
+        type="checkbox"
+        id="burger_checkbox"
+        class="input-burger"
+        name="burger-input"
+        id=""
+      />
+      <label for="burger_checkbox" class="burger__label">
+        <svg class="burger-icon">
+          <use href="assets/icons/sprites.svg#burger" />
+        </svg>
+      </label>
+
+      <div class="burger__menu">
+        <div class="burger">
+          <svg class="burger__logo">
+            <use
+              width="65"
+              height="65"
+              href="assets/icons/sprites.svg#logo"
+            ></use>
+          </svg>
+          <label for="burger_checkbox" class="burger__close">x</label>
+        </div>
+
+        <ul class="burger__menu-list">
+          <li class="burger__menu-item">
+            <a href="/" class="burger__menu-link">features</a>
+          </li>
+          <li class="burger__menu-item">
+            <a href="/" class="burger__menu-link">works</a>
+          </li>
+          <li class="burger__menu-item">
+            <a href="/" class="burger__menu-link">our team</a>
+          </li>
+          <li class="burger__menu-item">
+            <a href="/" class="burger__menu-link">testimonials</a>
+          </li>
+          <li class="burger__menu-item">
+            <a href="/" class="burger__menu-link">download</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__info">
+              <svg class="logo logo--big">
+                <use href="assets/icons/sprites.svg#logo"></use>
+              </svg>
+              <h1 class="hero__title">
+                MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+              </h1>
+              <hr class="hero__divider" />
+              <p class="hero__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </p>
+              <button type="button" class="btn btn--info">Download</button>
+            </div>
+
+            <form action="mailto:it@mail.ru" method="post" class="form">
+              <div class="form__inner-wrapper">
+                <h4 class="form__title">
+                  Try Your <span>FREE</span> Trial Today
+                </h4>
+                <label for="input-name" class="form__label">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="input-name"
+                  required
+                  class="form__input"
+                />
+
+                <label for="input-password" class="form__label">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="input-password"
+                  required
+                  class="form__input"
+                />
+
+                <label for="input-email" class="form__label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="input-email"
+                  required
+                  class="form__input"
+                />
+              </div>
+              <button type="submit" class="form-btn">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+  </body>
+</html>
